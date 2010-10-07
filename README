@@ -8,3 +8,7 @@ $ ./wptrans.py
 Usage:
 wptrans.py [inlang title [outlang]]
 where inlang and outlang are Wikipedia's two- and three-character codes.
+
+Bugs:
+As of current Python implentation (3.1.2), this does not seem to work.
+I've semi-abandoned this project, so if anyone else has a bugfix that would be welcome.
