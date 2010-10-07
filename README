@@ -1,0 +1,10 @@
+wptrans.py, by Anschel Schaffer-Cohen <anschelsc@gmail.com>
+
+This script will fail if it is run as
+$ python3 ./wptrans.py
+because sys.argv will be longer than expected. Therefore it should be made executable and run as
+$ ./wptrans.py
+
+Usage:
+wptrans.py [inlang title [outlang]]
+where inlang and outlang are Wikipedia's two- and three-character codes.
